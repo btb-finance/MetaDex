@@ -1,1 +1,17 @@
+.DS_Store
+.windsurfrules
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
 
+# Hardhat files
+cache
+artifacts
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
