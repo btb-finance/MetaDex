@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-import {BaseHook} from "@uniswap/v4-periphery/contracts/BaseHook.sol";
-import {IPoolManager} from "@uniswap/v4-core/contracts/interfaces/IPoolManager.sol";
-import {Hooks} from "@uniswap/v4-core/contracts/libraries/Hooks.sol";
+import {BaseHook} from "@uniswap/v4-periphery/src/utils/BaseHook.sol";
+import {IPoolManager} from "@uniswap/v4-core/src/interfaces/IPoolManager.sol";
+import {Hooks} from "@uniswap/v4-core/src/libraries/Hooks.sol";
 
 contract MetaDexHook is BaseHook {
     constructor(IPoolManager _poolManager) BaseHook(_poolManager) {}
